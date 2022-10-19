@@ -67,7 +67,7 @@ namespace SharedProject
                 values (@LoanAmount, @ )
             ";
 
-            command.ExecuteNonQuery();
+            command.ExecuteNonQuery()p;
         }
 
         public async Task InsertAsync(Model model)
